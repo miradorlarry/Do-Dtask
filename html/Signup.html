@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sign.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="header">
+                <img src="/img/logo-black.svg" alt="logo">
+                <h1><a href="/">Sign Up</a></h1>
+                <p>Hi Welcome!</p>
+            </div>
+            <div class="form-section">
+               <form action="#">
+                <p>Email Address</p>
+                <input type="text" name="Email" id="email">
+                <p>Username</p>
+                <input type="text" name="Username" id="username">
+                <p>Password</p>
+                <input type="password" name="Password" id="pass_word">
+                <div class="toggle-password">
+                    <input type="checkbox" onclick="showPassword()">
+                    <label for="showPassword" class="label">Show Password</label>
+                </div>
+                <button type="submit">Sign up</button>
+               </form>
+               <p class="sign-alternative">Already have an account? <a href="/html/Signin.html">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
